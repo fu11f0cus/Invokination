@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="sunstrike.webp">
+  <title>Invokination</title>
+</head>
+<body>
+  <h1>Welcome to the Invokination!</h1>
+  <article class="main">
+    <button class="guidebut" id="guidebut">Guide</button>
+    <div class="timer">
+      <span id="m">00</span>:<span id="s">00</span>:<span id="ms">00</span>    
+    </div>
+    <div class="time" id="time">
+      <p id="time"></p>
+    </div>
+    <input type="text" id="check" class="invoke" onkeydown="return invoke(event.key)">
+    <button id="clear">clear</button>
+    <!--<img src="Exort_icon.webp" alt="xz" class="ball" id="exort">
+    <img src="Wex_icon.webp" alt="xz" class="ball" id="wex">
+    <img src="Quas_icon.webp" alt="xz" class="ball" id="quas">-->
+    <div id="div"></div>
+    <div id="div2">
+      <img src="alacrity.webp" alt="xz" style="display: none;" id="al" class="spell">
+      <img src="invoker-cold-snap.webp" alt="xz" style="display: none;" id="cs" class="spell">
+      <img src="forge.webp" alt="xz" style="display: none;" id="fr" class="spell">
+      <img src="tornado.jpg" alt="xz" style="display: none;" id="tr" class="spell">
+      <img src="EMP_icon.webp" alt="xz" style="display: none;" id="emp" class="spell">
+      <img src="meteor.webp" alt="xz" style="display: none;" id="mt" class="spell">
+      <img src="qwe.jpg" alt="xz" style="display: none;" id="qwe" class="spell">
+      <img src="icewall.webp" alt="xz" style="display: none;" id="iw" class="spell">
+      <img src="sunstrike.webp" alt="xz" style="display: none;" id="ss" class="spell">
+      <img src="ghostwalk.webp" alt="xz" style="display: none;" id="gw" class="spell">
+    </div>
+    <div class="menu" id="spellmenu">
+      <div class="spellguide">
+        <div class="spellbox">
+          <img src="Quas_icon.webp" alt="xz">
+          <p>Quas (q)</p>
+        </div>
+        <div class="spellbox">
+          <img src="Wex_icon.webp" alt="xz">
+          <p>Wex (w)</p>
+        </div>
+        <div class="spellbox">
+          <img src="Exort_icon.webp" alt="xz">
+          <p>Exort (e)</p>
+        </div>
+        <div class="spellbox">
+          <img src="sunstrike.webp" alt="xz">
+          <p>Sunstrike (e+e+e)</p>
+        </div>
+        <div class="spellbox">
+          <img src="alacrity.webp" alt="xz">
+          <p>Alacrity (w+w+e)</p>
+        </div>
+        <div class="spellbox">
+          <img src="invoker-cold-snap.webp" alt="xz">
+          <p>Cold Snap (q+q+q)</p>
+        </div>
+        <div class="spellbox">
+          <img src="EMP_icon.webp" alt="xz">
+          <p>E.M.P (w+w+w)</p>
+        </div>
+        <div class="spellbox">
+          <img src="meteor.webp" alt="xz">
+          <p>Chaos Meteor (e+e+w)</p>
+        </div>
+        <div class="spellbox">
+          <img src="icewall.webp" alt="xz">
+          <p>Ice Wall (q+q+e)</p>
+        </div>
+        <div class="spellbox">
+          <img src="ghostwalk.webp" alt="xz">
+          <p>Ghost Walk (q+q+w)</p>
+        </div>
+        <div class="spellbox">
+          <img src="tornado.jpg" alt="xz">
+          <p>Tornado (w+w+q)</p>
+        </div>
+        <div class="spellbox">
+          <img src="forge.webp" alt="xz">
+          <p>Forge Spirit (e+e+q)</p>
+        </div>
+        <div class="spellbox">
+          <img src="qwe.jpg" alt="xz">
+          <p>qwe (q+w+e)</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <script src="invoke2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</body>
+</html>
